@@ -92,8 +92,12 @@ body {
 	font-weight: 800;
 	font-style: italic;
 	width: 60%;
+	font-size: 1rem;
+	margin-top: 0;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
 }
-#about-me p {
+#about-me__description {
 	width: 80%;
 	font-size: 14px;
 }
@@ -109,9 +113,10 @@ body {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
+	color: black;
 	background-color: #BEB45A;
 	border-radius:0 ;
+	font-weight: bold;
 }
 .nav-pills .nav-link {
 	color: #000

@@ -4,19 +4,53 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "ProfessionalService",
+			"name": "Nina Carducci",
+			"telephone": "+33556677889",
+			"openingHours": [
+				"lundi au vendredi 10:00-19:00"
+			],
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "68 avenue Alsace-Lorraine",
+				"addressLocality": "Bordeaux",
+				"addressRegion": "Bordeaux",
+				"postalCode": "33200"
+			}
+		}
+	</script>
+
 	<title>Nina Carducci – Photographe professionnelle</title>
 	<meta name="description" content="Photographe professionnelle spécialisée en mariages, portraits et événements à Bordeaux">
+
+	<meta property="og:site_name" content="Nina Carducci" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://www.ninacarducci.com" /><!--Pas encore en ligne-->
+	<meta property="og:title" content="Nina Carducci - Photographe" />
+	<meta property="og:description" content="Photographe professionnelle spécialisée en mariages, portraits et événements à Bordeaux" />
+	<meta property="og:image" content="https://www.ninacarducci.com/images/og-image.jpg" /><!--Pas encore en ligne-->
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@NinaCarducci" />
+	<meta name="twitter:creator" content="@NinaCarducci" />
+	<meta name="twitter:title" content="Nina Carducci - Photographe à Bordeaux" />
+	<meta name="twitter:description" content="Photographe professionnelle spécialisée en mariages, portraits et événements à Bordeaux." />
+	<meta name="twitter:image" content="https://www.ninacarducci.com/images/nina-carducci-twitter.jpg" /> <!--Pas encore en ligne-->
+	<meta name="twitter:url" content="https://www.ninacarducci.com" /><!--Pas encore en ligne-->
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
+	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
 	<link rel="stylesheet" href="./assets/style.css">
 
-	<script src="./assets/bootstrap/bootstrap.bundle.js" defer></script>
-	<script src="https://code.jquery.com/jquery-3.4.1.min.js" defer></script>
-	<script src="./assets/maugallery.js" defer></script>
-	<script src="./assets/scripts.js" defer></script>
+	<script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+
 </head>
 <body>
 <header class="top-header">
@@ -69,12 +103,12 @@
 	</div>
 	<div id="about">
 		<div class="picture left">
-			<img src="./assets/images/ninaCompresser.jpg" alt="Nina Carducci">
+			<img src="./assets/images/ninaCompresser.webp" alt="Nina Carducci">
 		</div>
 		<div id="about-me">
 			<h2 class="about-me__title">A propos de moi</h2>
 			<p class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</p>
-			<p>Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie : le figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos yeux, ou le partager au plus grand nombre.
+			<p class="about-me__description">Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie : le figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos yeux, ou le partager au plus grand nombre.
 				C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
 		</div>
 	</div>
@@ -163,10 +197,13 @@
 				</form>
 			</div>
 			<div class="picture right">
-				<img src="./assets/images/cameraCompresser.jpg" alt="">
+				<img src="./assets/images/cameraCompresser.webp" alt="">
 			</div>
 		</div>
 	</div>
 </main>
+
+<script src="./assets/maugallery.js"></script>
+<script src="./assets/scripts.js"></script>
 </body>
 </html>
