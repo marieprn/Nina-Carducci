@@ -9,16 +9,19 @@
 			"@context": "https://schema.org",
 			"@type": "ProfessionalService",
 			"name": "Nina Carducci",
+			"image": "",><!--url image quand je site sera en ligne-->
 			"telephone": "+33556677889",
+			"priceRange": "€€",
 			"openingHours": [
-				"lundi au vendredi 10:00-19:00"
+				"Mo-Fr 10:00-19:00"
 			],
 			"address": {
 				"@type": "PostalAddress",
 				"streetAddress": "68 avenue Alsace-Lorraine",
 				"addressLocality": "Bordeaux",
-				"addressRegion": "Bordeaux",
-				"postalCode": "33200"
+				"addressRegion": "Nouvelle-Aquitaine",
+				"postalCode": "33200",
+				"addressCountry": "FR"
 			}
 		}
 	</script>
@@ -91,13 +94,22 @@
 					<img src="./assets/images/sliderCompresser/edward-cisneros-3_h6-1NPDGw-unsplash.webp" class="d-block w-100" alt="...">
 				</div>
 			</div>
-			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+			<button
+				class="carousel-control-prev"
+				type="button"
+				data-bs-target="#carouselExampleIndicators"
+				data-bs-slide="prev"
+				aria-label="Previous">
 				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-				<span class="visually-hidden">Previous</span>
 			</button>
-			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+
+			<button
+				class="carousel-control-next"
+				type="button"
+				data-bs-target="#carouselExampleIndicators"
+				data-bs-slide="next"
+				aria-label="Next">
 				<span class="carousel-control-next-icon" aria-hidden="true"></span>
-				<span class="visually-hidden">Next</span>
 			</button>
 		</div>
 	</div>
@@ -118,19 +130,19 @@
 			<div class="gallery" style="display: none">
 				<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/galleryCompresser/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.webp" alt="Concert"/>
 				<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/galleryCompresser/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.webp" alt="Entreprise"/>
-				<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/galleryCompresser/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.webp" alt="Entreprise"/>
+				<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/galleryCompresser/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.webp" alt="Photo en entreprise"/>
 				<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/galleryCompresser/mariages/hannah-busing-RvF2R_qMpRk-unsplash.webp" alt="Mariage"/>
 				<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/galleryCompresser/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.webp" alt="Portrait"/>
-				<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/galleryCompresser/mariages/jakob-owens-SiniLJkXhMc-unsplash.webp" alt="Mariage"/>
-				<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/galleryCompresser/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.webp" alt="Portrait"/>
-				<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/galleryCompresser/concerts/austin-neill-hgO1wFPXl3I-unsplash.webp" alt="Concert"/>
-				<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/galleryCompresser/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.webp" alt="Entreprise"/>
+				<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/galleryCompresser/mariages/jakob-owens-SiniLJkXhMc-unsplash.webp" alt="Photo de mariage"/>
+				<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/galleryCompresser/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.webp" alt="Portrait photo"/>
+				<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/galleryCompresser/concerts/austin-neill-hgO1wFPXl3I-unsplash.webp" alt="Photo d'un concert"/>
+				<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/galleryCompresser/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.webp" alt="Photo en entreprise"/>
 			</div>
 		</div>
 		<div class="quote">
 			<figure>
 				<blockquote>
-					<h3 class="quote__text">Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un fait est traduit en photo, il cesse d’être un fait pour devenir une opinion. L’inexactitude n’existe pas en photographie. Toutes les photos sont exactes. Aucune d’elles n’est la vérité.</h3>
+					<p class="quote__text">Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un fait est traduit en photo, il cesse d’être un fait pour devenir une opinion. L’inexactitude n’existe pas en photographie. Toutes les photos sont exactes. Aucune d’elles n’est la vérité.</p>
 				</blockquote>
 				<figcaption class="quote__author">- Richard Avedon</figcaption>
 			</figure>
@@ -145,7 +157,7 @@
 					<p>Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en Île-de-France pour réaliser vos photos</p>
 				</div>
 				<div class="service__price">
-					<p>350€/demi journée</p>
+					<h4>350€/demi journée</h4>
 					<span>Matériel, déplacement inclus</span>
 				</div>
 
@@ -157,7 +169,7 @@
   						Bénéficiez d’un rendu optimal pour vos publications.</p>
 				</div>
 				<div class="service__price">
-					<p>50€/photo</p>
+					<h4>50€/photo</h4>
 					<span>2 AR par photo</span>
 				</div>
 			</article>
@@ -167,7 +179,7 @@
 					<p>Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers un album photo personnalisé</p>
 				</div>
 				<div class="service__price">
-					<p>400€ album A4</p>
+					<h4>400€ album A4</h4>
 					<span>30 pages recto/verso</span>
 				</div>
 			</article>
@@ -184,7 +196,7 @@
 	<div id="contact">
 		<div class="container">
 			<div class="form-container">
-				<h3>Une question ? Une demande de devis ?</h3>
+				<h2>Une question ? Une demande de devis ?</h2>
 				<p> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
 				<form action="" method="post">
 					<label for="nom">Nom</label>
